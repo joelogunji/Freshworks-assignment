@@ -1,0 +1,653 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.ContactSales {
+  position: fixed;
+  bottom: 45px;
+  right:20px;
+  z-index: 1;
+  background-color: #0B1320;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 35px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.Contactlogo {
+  height: 15px;
+  width: 15px;
+}
+
+.navbar {
+  height: 9vh;
+  width: 100%;
+  background-color: #0B1320;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbarContainer {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Logo >img {
+  height: 80px;
+  width: 140px;
+}
+
+.rightnav {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.Webicon >img {
+  height: 25px;
+  width: 25px;    
+}
+
+.first {
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #E8DFF4, #8363B0);
+  display: flex;
+}
+
+.firstText {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstTextWrapper {
+  height: 70%;
+  width: 80%;
+}
+
+.delight {
+  font-size: 80px;
+  font-weight:900;
+}
+
+.wemake {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.button1 {
+  padding: 10px 40px;
+  background-color: #0B1320; 
+  color: white;
+}
+
+.button2 {
+  padding: 10px 40px;
+  background-color: #CEBFE3;
+}
+
+.Lady {
+  height: 80%;
+  width: 50%;
+  justify-content: flex-start;
+  align-self:flex-end;  
+}
+
+.Lady >img {
+  height: 100%;
+  width: 80%;
+}
+
+.second {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manChild {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.manChild >img {
+  height: 75%;
+  width:70%;
+}
+
+.secondText {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.secondTextWrapper {
+  height: 75%;
+  width:85%;
+}
+
+.secondTextUpper {
+  height: 40%;
+  width: 100%;
+  font-size: 30px;
+  font-weight:800;
+}
+
+.secondTextLower {
+  height: 60%;
+  width: 100%;
+display: flex;
+}
+
+.STLLeft {
+  width: 50%;
+  height: 100%;
+}
+
+.STLRight {
+  width: 50%;
+  height: 100%;
+}
+
+.button3 {
+  height: 60px;
+  width: 300px;
+   background-color: #F7F7F7;
+   margin: 10px;
+   border: none;
+   padding: 20px 75px;
+   font-size: 17px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.button4 {
+  height: 60px;
+  width: 300px;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 20px 75px;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.button5 {
+  height: 60px;
+  width: 300px;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 20px 75px;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.button6 {
+  height: 60px;
+  width: 300px;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 20px 75px;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.button7 {
+  height: 60px;
+  width: 300px;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 20px 75px;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.button8 {
+  height: 60px;
+  width: 300px;
+  background-color: #F7F7F7;
+  border: none;
+  padding: 20px 75px;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.third {
+  height: 150vh;
+  width: 100%;
+  background-color: #0B1320;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.thirdWrapper {
+  height: 70%;
+  width: 80%;
+}
+
+.thirdRow1 {
+  height: 32%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.thirdRow2 {
+  height: 34%;
+  width: 100%;
+  display: flex;
+}
+
+.thirdRow2Left {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.thirdRow2Left >img {
+  height: 70px;
+  width: 70px;
+}
+
+.thirdRow2Right {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.thirdRow2Right >img {
+  height: 70px;
+  width: 70px;
+}
+
+.thirdRow3 {
+  height: 34%;
+  width: 100%;
+  display: flex;
+}
+
+.thirdRow3Left {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.thirdRow3Left >img {
+  height: 70px;
+  width: 70px;
+}
+
+.thirdRow3Right {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.thirdRow3Right >img {
+  height: 70px;
+  width: 70px;
+}
+
+.fourth {
+  height:75vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourthWrapper {
+  height: 80%;
+  width: 80%;
+}
+
+.fourthText{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.fourthlogos1 {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourthlogos2 {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourthlogos3 {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourthLogos1a >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1b >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1c >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1d >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1e >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1f >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1g >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1h >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1i >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1j >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1k >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1l >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1m >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1n >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1o >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1p >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1q >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fourthLogos1r >img {
+  height: 60px;
+  width: 150px;
+}
+
+.fifth {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+
+.fifthWrapper {
+  height: 90%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifthText1 {
+  display: flex;
+}
+
+.Openquotes {
+  height: 100px;
+  width: 100px;
+}
+
+.Waterson {
+  height: 120px;
+  width: 300px;
+}
+
+.Closequote {
+  height: 100px;
+  width: 100px;
+}
+
+.fifthText2 {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sixth {
+  height: 120vh;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sixthWrapper {
+  height: 90%;
+  width: 80%;
+}
+
+.sixthRow1 {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.sixthRow2 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+
+.sixthRow3 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+
+.sixthRow3a {
+  width: 25%;
+}
+
+.sixthRow3b {
+  width: 25%;
+}
+
+.sixthRow3c {
+  width: 25%;
+}
+
+.sixthRow3d {
+  width: 25%;
+}
+
+.sixthRow4 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Culture {
+  height: 240px;
+  width: 25%;
+}
+
+.Diversity {
+  height: 240px;
+  width: 25%;
+}
+
+.Team {
+  height: 240px;
+  width: 25%;
+}
+
+.Experience {
+  height: 240px;
+  width: 25%;
+}
+
+.See {
+  padding: 7px 70px;
+  background-color: #0B1320;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+}
+
+.seventh {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0B1320;
+}
+
+.seventhWrapper {
+  height: 50%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contactsales2 {
+  padding: 7px 70px;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  color: #0B1320;
+  font-size: 16px;
+}
+
+.seventhRow1 {
+  font-size: xx-large;
+  color: white;
+}
+
+.seventhRow2 {
+  font-size: x-large;
+  color: white;
+}
+
+.eight {
+  height: 75vh;
+  width: 100%;
+  background-color: yellow;
+}
+
+.Screenshot {
+  height: 100%;
+  width: 100%;
+}
+   
