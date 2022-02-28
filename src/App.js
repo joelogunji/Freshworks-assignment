@@ -32,7 +32,7 @@ import Culture from "./Images/Culture.jpg"
 import Diversity from "./Images/Diversity.png"
 import Experience from "./Images/Experience.jpg"
 import Team from "./Images/Team.jpg"
-import Screenshot from "./Images/Screenshot.png"
+
 
 function App (){
   return(
@@ -252,7 +252,7 @@ function App (){
                 </div>
             </div>
 
-            <div className="eight"><img className="Screenshot" src={Screenshot}/></div>
+        
 
         <button className="ContactSales">CONTACT SALES</button>
     </div>
